@@ -23,8 +23,8 @@ import java.io.IOException;
 @RequiredArgsConstructor
 @Tag(name = "User Controller", description = "Operations related to users and sellers")
 public class UserController {
-
     private final SellerService sellerService;
+
     private final UserService userService;
 
     @GetMapping("/current")
